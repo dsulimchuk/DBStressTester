@@ -1,0 +1,6 @@
+begin
+  for i in 0 .. 1000 loop
+    btk_objectclassapi.RegisterNew(seqbtk_object.nextval, agt_objmappingapi.getidcurrentclass#());
+    rollback;
+  end loop;
+end;

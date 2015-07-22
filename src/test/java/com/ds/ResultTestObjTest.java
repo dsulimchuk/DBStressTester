@@ -1,11 +1,13 @@
-package com.ds.DBStressTester;
+package com.ds;
 
+
+import com.ds.DBStressTester.ResultTestObj;
 
 import junit.framework.TestCase;
 
 
 
-public class ResultTestObjTest2 extends TestCase {
+public class ResultTestObjTest extends TestCase {
 	ResultTestObj obj;
 	
 	protected void setUp() throws Exception {
